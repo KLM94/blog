@@ -56,18 +56,6 @@ h1 {
 
 .blog-description {
   font-family: charter, Georgia, Cambria, "Times New Roman", Times, serif;
-  letter-spacing: 1px;
-  color: rgb(37, 37, 37);
-  padding: 1em;
-  font-weight: bold;
-}
-
-.blog-description-container {
-  margin: 0 auto;
-  text-align: center;
-  border-style: solid;
-  border-radius: 5px;
-  width: 1000px;
-  box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.432);
-  background-image: linear-gradient(#e0824396, #eb997381);
+  letter-spacing: -0.003em;
+  color: white;
 }

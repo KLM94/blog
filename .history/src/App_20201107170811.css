@@ -69,5 +69,6 @@ h1 {
   border-radius: 5px;
   width: 1000px;
   box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.432);
+  /* background-color: #e0824370; */
   background-image: linear-gradient(#e0824396, #eb997381);
 }

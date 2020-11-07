@@ -2,7 +2,7 @@ import { Link } from "@reach/router";
 
 export default function Homepage() {
   return (
-    <div className="body">
+    <div>
       <h1>Kirsty McGlynn</h1>
       <p className="sub-heading">
         {" "}

@@ -59,7 +59,6 @@ h1 {
   letter-spacing: 1px;
   color: rgb(37, 37, 37);
   padding: 1em;
-  font-weight: bold;
 }
 
 .blog-description-container {
@@ -68,6 +67,7 @@ h1 {
   border-style: solid;
   border-radius: 5px;
   width: 1000px;
-  box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.432);
-  background-image: linear-gradient(#e0824396, #eb997381);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.432);
+  background-color: #e0824370;
+  /* background-image: linear-gradient(#cc5b10, #eb9973); */
 }
