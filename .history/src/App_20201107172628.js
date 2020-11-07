@@ -3,7 +3,7 @@ import React from 'react';
 import { Router }from "@reach/router"
 import Homepage from './Components/Homepage'
 import Blog from './Components/Blog'
-import ArchiveBlogs from './Components/ArchiveBlogs';
+import OlderBlogs from './Components/OldBlogs';
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
       <Router>
        <Homepage path='/'/>
        <Blog path='/blog' />
-       <ArchiveBlogs path='/blog/archive-blogs' />
+       <OlderBlogs path='/blog/archive-blogs' />
        </Router>
       </header>
     </div>

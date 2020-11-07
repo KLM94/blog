@@ -3,7 +3,7 @@ import React from 'react';
 import { Router }from "@reach/router"
 import Homepage from './Components/Homepage'
 import Blog from './Components/Blog'
-import ArchiveBlogs from './Components/ArchiveBlogs';
+import ArchiveBlogs from './Components/OldBlogs';
 
 function App() {
   return (

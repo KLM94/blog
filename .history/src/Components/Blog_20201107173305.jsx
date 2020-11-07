@@ -41,7 +41,7 @@ export default function Blog() {
           className="click-prev-blogs"
           style={{ textDecoration: "none" }}
         >
-          View Previous Blogs
+          Click here to view previous blogs
         </Link>
       </div>
     </div>

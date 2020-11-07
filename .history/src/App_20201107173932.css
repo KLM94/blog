@@ -55,7 +55,6 @@ h1 {
   font-family: "Pacifico", cursive;
   font-size: 25px;
   color: white;
-  letter-spacing: 0.1em;
 }
 
 .blog-description {
@@ -84,7 +83,7 @@ h1 {
   text-align: center;
   transition: all 0.4s ease;
   color: white;
-  letter-spacing: 0.1em;
+  letter-spacing: 2em;
 }
 
 .click-prev-blogs:hover {
@@ -96,7 +95,6 @@ h1 {
   font-family: "Pacifico", cursive;
   font-size: 25px;
   color: white;
-  letter-spacing: 0.1em;
 }
 
 /* LOADING INDICATOR */

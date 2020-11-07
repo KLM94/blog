@@ -24,7 +24,7 @@ body {
 h1 {
   font-family: "Libre Franklin", sans-serif;
   color: #e08243;
-  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.432);
+  text-shadow: 12px 12px 12px rgba(0, 0, 0, 0.432);
   box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.432);
   margin: 0;
   padding: 0.1em;
@@ -55,7 +55,6 @@ h1 {
   font-family: "Pacifico", cursive;
   font-size: 25px;
   color: white;
-  letter-spacing: 0.1em;
 }
 
 .blog-description {
@@ -74,41 +73,4 @@ h1 {
   width: 1000px;
   box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.432);
   background-image: linear-gradient(#e0824396, #eb997381);
-}
-
-/* PREVIOUS BLOGS */
-
-.click-prev-blogs {
-  font-family: "Pacifico", cursive;
-  margin: 0 auto;
-  text-align: center;
-  transition: all 0.4s ease;
-  color: white;
-  letter-spacing: 0.1em;
-}
-
-.click-prev-blogs:hover {
-  color: #e08243;
-  cursor: pointer;
-}
-
-.prev-blog-title {
-  font-family: "Pacifico", cursive;
-  font-size: 25px;
-  color: white;
-  letter-spacing: 0.1em;
-}
-
-/* LOADING INDICATOR */
-.loading {
-  margin: 0px;
-  padding: 250px;
-  height: 100%;
-}
-
-@media only screen and (max-width: 500px) {
-  .loading {
-    margin-top: 20px;
-    margin-bottom: 0px;
-  }
 }

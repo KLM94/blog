@@ -38,10 +38,10 @@ export default function Blog() {
       <div>
         <Link
           to="/blog/archive-blogs"
-          className="click-prev-blogs"
+          className="archive-blog"
           style={{ textDecoration: "none" }}
         >
-          View Previous Blogs
+          Click here to view previous blogs
         </Link>
       </div>
     </div>
