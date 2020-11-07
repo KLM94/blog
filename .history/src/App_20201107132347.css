@@ -18,14 +18,12 @@ body {
 
 h1 {
   font-family: "Libre Franklin", sans-serif;
-  color: #e08243;
   text-shadow: 2px 2px #000000;
-  margin: 0;
 }
 
 .sub-heading {
   font-family: "Merriweather", serif;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .blog-title {
@@ -36,6 +34,6 @@ h1 {
 }
 
 .blog-title:hover {
-  color: #e08243;
+  color: rgba(228, 129, 37, 0.705);
   cursor: pointer;
 }

@@ -1,21 +1,18 @@
 import './App.css';
-import React from 'react';
-import { Router }from "@reach/router"
+import React, { Component } from 'react';
 import Homepage from './Components/Homepage'
-import Blog from './Components/Blog'
 
 function App() {
   return (
-   
     <div className="App">
+      <Switch>
+                
+                
       <header className="App-header">
-      <Router>
-       <Homepage path='/'/>
-       <Blog path='/blog' />
-       </Router>
+       <Homepage />
       </header>
+      </Switch>
     </div>
-
   );
 }
 

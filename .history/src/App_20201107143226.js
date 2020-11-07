@@ -6,16 +6,14 @@ import Blog from './Components/Blog'
 
 function App() {
   return (
-   
+    <Router>
     <div className="App">
       <header className="App-header">
-      <Router>
        <Homepage path='/'/>
        <Blog path='/blog' />
-       </Router>
       </header>
     </div>
-
+    </Router>
   );
 }
 

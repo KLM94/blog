@@ -36,6 +36,6 @@ h1 {
 }
 
 .blog-title:hover {
-  color: #e08243;
+  color: rgba(228, 129, 37, 0.705);
   cursor: pointer;
 }

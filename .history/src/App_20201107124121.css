@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@600&display=swap");
+
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  margin: 0;
+}
+
+h1 {
+  font-family: "Libre Franklin", sans-serif;
+  text-shadow: 2px 2px #000000;
+}
+
+.blog-title {
+  margin-left: 0.1em;
+  margin-right: 0.1em;
+  padding: 0.5em;
+  border: 5px solid red;
+}
